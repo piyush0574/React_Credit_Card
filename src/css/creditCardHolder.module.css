@@ -1,0 +1,7 @@
+.creditCardHolder {
+  width: 50%;
+  height: 5cm;
+  z-index: 2;
+
+  border-radius: 8px;
+}

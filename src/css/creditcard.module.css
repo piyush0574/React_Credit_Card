@@ -1,0 +1,198 @@
+.main_div {
+  width: 50%;
+  background-color: rgb(227, 241, 241);
+  border-radius: 1em;
+  margin-top: 0.1cm;
+  margin-left: 5cm;
+  margin-right: 3cm;
+  height: 16cm;
+  padding-right: 8cm;
+  position: relative;
+}
+.form_div {
+  background-color: rgb(248, 247, 248);
+  z-index: 1;
+  margin-top: 3cm;
+  margin-left: 6.2cm;
+  width: 14cm;
+  height: 12.5cm;
+  position: absolute;
+}
+.imageSize {
+  width: 45%;
+  margin-left: 6cm;
+  height: 5.2cm;
+  border-radius: 8px;
+}
+.creditCardHolder {
+  width: 20cm;
+
+  margin-top: 0.3cm;
+  position: absolute;
+  z-index: 4;
+}
+.form_data {
+  text-align: left;
+  margin-left: 1cm;
+}
+.card_number_text {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.card_number_box {
+  width: 12cm;
+  height: 1cm;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline-color: rgb(106, 168, 147);
+  outline-offset: 0.5px;
+  text-transform: uppercase;
+}
+.cvvBox {
+  margin-left: 4cm;
+  width: 15%;
+  margin-bottom: 1cm;
+  padding: 0.5ch;
+  outline-color: rgb(106, 168, 147);
+}
+.comboBox {
+  position: relative;
+  border-radius: 0.5ch;
+  padding: 0.5ch;
+
+  outline-color: rgb(106, 168, 147);
+}
+.submit_btn {
+  background-color: rgb(53, 53, 207);
+  border: none;
+  width: 11cm;
+  height: 1.2cm;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card_number_on_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  margin-left: 3cm;
+  width: 7.5cm;
+  font-size: large;
+  text-align: center;
+  padding: 4px;
+  border-color: rgb(235, 226, 226);
+  background: none;
+  color: white;
+}
+.chip_on_card {
+  position: absolute;
+  top: 8%;
+  width: 1.3cm;
+  height: 1cm;
+  right: 49%;
+}
+.cardHolderHeading_on_card {
+  position: absolute;
+  top: 72%;
+  left: 8.5cm;
+  right: 49%;
+  width: 4cm;
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+.cardHolderName_on_card {
+  position: absolute;
+  top: 83%;
+  left: 9.1cm;
+  right: 49%;
+  text-align: left;
+  width: 4cm;
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+.expiryDateHeading_on_card {
+  position: absolute;
+  top: 72%;
+  left: 14cm;
+
+  width: 4cm;
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+.expiryDateDate_on_card {
+  position: absolute;
+  top: 83%;
+  left: 14cm;
+
+  width: 4cm;
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+.typeOfCreditCardLogo {
+  position: absolute;
+  max-width: 1.5cm;
+  z-index: 30;
+  left: 15cm;
+  top: 0.57cm;
+}
+.typeOfCreditCardLogoBack {
+  position: absolute;
+  width: 1.5cm;
+  z-index: 30;
+  left: 15.7cm;
+  top: 3.5cm;
+}
+.cardRotate {
+  width: 45%;
+  margin-left: 6cm;
+  height: 5.2cm;
+  border-radius: 8px;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+}
+.blackStripOnCC {
+  position: absolute;
+  top: 8%;
+  width: 8.9cm;
+  height: 1.1cm;
+  right: 13%;
+  background-color: rgb(36, 31, 31);
+}
+.cvvtext_on_card {
+  position: absolute;
+  top: 32%;
+  left: 16.3cm;
+
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+.cvv_on_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  margin-left: 3cm;
+  width: 8cm;
+  font-size: large;
+  text-align: right;
+  padding: 4px;
+  border-color: rgb(235, 226, 226);
+  background: none;
+  color: rgb(8, 8, 8);
+  background-color: white;
+}
