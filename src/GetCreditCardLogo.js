@@ -14,7 +14,6 @@ function GetCreditCardLogo(props) {
       return images.get(CardType);
     }
   };
-  
 
   if (props.cardnumber.side === "front") {
     return (
